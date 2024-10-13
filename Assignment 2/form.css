@@ -1,0 +1,135 @@
+ body{
+    background-color: rgb(214, 183, 255);
+    font-family: "Jost", sans-serif;
+
+    
+}
+
+
+
+
+
+form{
+    
+    width: 50%; /* adjust this value to control the form's width */
+     
+    
+}
+ 
+h1{
+    text-align: center;
+    font-style: normal;
+    font-family: verdana, sans-serif;
+}
+p{
+    text-align: center;
+}
+hr.one{
+    height: 1px;
+    width: 55%;
+    background-color:#585b5b;
+    justify-content: center;
+    
+    
+  } 
+
+  hr.two{
+    height: 1px;
+    width: 120%;
+    background-color:#9d9e9e;
+    margin-left: -5%;
+    
+  } 
+
+  hr.three{
+    height: 1px;
+    width: 120%;
+    background-color:#585b5b;
+    margin-left: -5%;
+    
+  } 
+
+  .form-container {
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;    /*vh stands for viewport height */
+  }
+
+  .container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 6px 2px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    
+  }
+  input[type=email] {
+    width: 40%;
+    padding: 6px 2px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+    
+  }
+
+  input[type="radio"]{
+    margin: 0 40px 0 0px;
+   
+    
+    
+  }
+
+select {
+    width: 40%;
+    padding: 3px 2px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+  }
+
+
+
+  button{
+    font-size: 18px;
+  }
+
+  .input-icons {
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+}
+
+
+.input-icons i {
+
+    position: absolute;
+    top: 135px;
+    left: 700px;
+
+}
+
+
+.icon {
+
+    padding: 20px;
+
+    min-width: 40px;
+
+}
+
+  
+  
+
+ 
+
+  

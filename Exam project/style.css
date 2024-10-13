@@ -1,0 +1,108 @@
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #002657; /* Dark Blue */
+  }
+  
+  /* Sky Styles */
+  .sky {
+    position: relative;
+    width: 800px;
+    height: 500px;
+  }
+  
+  /* Moon Styles */
+  .moon {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #F1EBEB; /* Light white */
+    box-shadow: 0 0 50px 10px #f0e68c; /* Light Yellow */
+  }
+  
+  /* House Styles */
+  .house {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translatey(-60%);
+    width: 200px;
+    height: 200px;
+    
+  }
+  
+  /* Roof Styles */
+  .roof {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 80px solid #8B4512; /* Saddle Brown */
+  }
+  
+  /* Walls Styles */
+  .walls {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 90%;
+    height: 220px;
+    background-color: #FFCB99; /* Light skin */
+  }
+  .window {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    width: 40px;
+    height: 40px;
+    background-color: #87CEEA; /* sky blue */
+    border-style: solid;
+    border-color: #654320;
+  }
+  .window2 {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color:#87CEEA; /* sky blue  */
+    border-style: solid;
+    border-color: #654320;
+  }
+  
+  /* Door Styles */
+  .door {
+    position: absolute;
+    top: 190px;
+    bottom: 0;
+    left: 60px;
+    width: 60px;
+    height: 110px;
+    background-color: #654320; /* DarkBrown */
+    transition: left 0.5s;
+    transition: transform 0.5s ease; /* Add transition for smooth effect */
+    transform-style: preserve-3d; /* Ensure proper perspective */
+  }
+  
+  /* Rotate on Hover */
+  .door:hover {
+   transform: translateX(-40px) rotateY(100deg); /* Move and rotate door */
+  }
+  
+  
+  
+  
+  

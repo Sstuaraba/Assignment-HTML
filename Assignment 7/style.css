@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height:500px;
+    width:900px;
+    background-image: conic-gradient(  #4986F1 116deg,  #7D3799 4deg);
+    
+}
+
+
+.box1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background: conic-gradient( #F6BB21 121deg, #41AB4F 58deg);
+    border-radius: 50%;
+}

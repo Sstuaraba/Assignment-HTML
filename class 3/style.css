@@ -1,0 +1,19 @@
+
+/* external css */
+table,th,td{
+    border :1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+td ,th{
+    padding: 10px;
+    text-align: center;
+}
+#first-row{
+    background-color: aqua;
+}
+#third-row{
+    background-color: aqua;
+}

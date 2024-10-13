@@ -1,0 +1,86 @@
+body {
+  background-image: url(beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+  padding-top: 100px;
+  min-height: calc(100% - 50px);
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 10;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 25px;
+}
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+.menu {
+  width: 80%;
+  background-color: rgb(219, 183, 136);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(174, 58, 58);
+  border-color: rgba(12, 11, 11, 0.235);
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+.icon { 
+   
+  position: absolute;
+    top: 320px;
+    left: 745px; 
+}
+.icons { 
+   
+  position: absolute;
+    top: 580px;
+    left: 745px; 
+    
+}
+.under-line{
+  text-decoration: underline;
+  font-family:sans-serif ;
+}
+ 
+  
